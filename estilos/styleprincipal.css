@@ -13,6 +13,7 @@ html, body {
 }
 
 header {
+    position: fixed;
     max-height: 56px;
     width: 100vw;
     background-color: white;
