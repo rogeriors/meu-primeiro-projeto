@@ -41,9 +41,9 @@ header img {
 }
 
 .botaopesquisa {
-    font-size: 1em;
-    padding-left: 10px;
-    width: 17vw;
+    font-size: 1.5em;
+    padding-left: 8px;
+    width: 40px;
     height: 40px;
     background-color: #F0F2F5;
     border-color: transparent;
@@ -89,14 +89,14 @@ header img {
     }
 
     li > img {
-        height: 1.3em;
+        height: 0px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     a > img {
-        width: 2.3em;
+        width: 0px;
         cursor: pointer;
         display: flex;
         align-items: center;
@@ -108,8 +108,8 @@ header img {
         align-items: center;
         justify-content: center;
         background-color: rgba(218, 218, 218, 0.24);
-        width: 8vw;
-        height: 50px;
+        width: 0px;
+        height: 0px;
         border-radius: 10px;
     
     }
@@ -120,10 +120,11 @@ header img {
     position: absolute;
     right: 0;
     display: inline-flex;
+    padding-right: 10px;
     align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    width: 204px;
+    justify-content: end;
+    background-color: white;
+    width: 50px;
     height: 56px;
 
     ul {
@@ -179,3 +180,5 @@ header img {
     .fotodir:hover {
         box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.377);
     }
+
+
