@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 * {
+    
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -10,16 +11,20 @@ html, body {
     height: 100%;
     width: 100vw;
     
+    
     overflow: hidden;
 }
+
+
 
 iframe {
     width: 100vw;
     height: 56px;
+    
 }
 
 .topo-iframe{
-    
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.164);
 }
 
 .overlay-iframe {
@@ -48,7 +53,7 @@ header {
     padding: 10px;
     display: flex;
     align-items: center;
-    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.075);
+   
 }
 
 header img {
@@ -95,6 +100,28 @@ header img {
     background-color: white;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.menulinha {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    cursor: pointer;
+    
+    li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 53px;   
+    }
+   
+    .linha {
+        width: 100px;
+        height: 3px;
+        background-color: #0866FF;
+    }
+
 }
 
 
@@ -272,17 +299,75 @@ header img {
     }
 
     .pen-dentro {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         background-color: white;
         width: 648px;
         height: 40px;
+        color: rgb(110, 110, 110);
+
+        .imgesq {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+
+        p {
+            background-color: rgba(128, 128, 128, 0.185);
+            width: 472px;
+            height: 40px;
+            padding: 10px;
+            border-radius: 20px;
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+
+        p:hover {
+            cursor: pointer;
+            background-color: rgba(128, 128, 128, 0.24);
+        }
+    }
+
+    .pen-img {
+        display: flex;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+    }
+
+    .pen-img:hover {
+        background-color: rgba(128, 128, 128, 0.185);
+        border-radius: 10px;
+    }
+
+    .imgdir {
+    
+        margin-left: 8px;
+        margin-right: 8px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
     }
 
     .reels {
         width: 680px;
         height: 210px;
-        display: inline-flex;
-
+        display: flex;
+        overflow-x: auto;
+        margin-bottom: 10px;
     }
+
+    .reels img {
+        cursor: progress;
+        margin-right: 10px;
+    }
+
+    .reels::-webkit-scrollbar {
+        display: grid;
+    }
+
 
     #reel01 {
         background-color: white;
