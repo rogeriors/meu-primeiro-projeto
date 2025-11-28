@@ -9,8 +9,35 @@
 html, body {
     height: 100%;
     width: 100vw;
-    background-color: #F2F4F7;
+    
     overflow: hidden;
+}
+
+iframe {
+    width: 100vw;
+    height: 56px;
+}
+
+.topo-iframe{
+    
+}
+
+.overlay-iframe {
+    position: absolute;      
+    width: 348.5px;     
+    height: 100vh;    
+    z-index: 1000;
+    padding: 0px 20px 0px 20px;
+}
+
+.overlay-iframe2 {
+    position: absolute; 
+    right: 0;         
+    width: 348.5px;     
+    height: 100vh;    
+    z-index: 1000;
+    padding: 0px 20px 0px 20px;
+
 }
 
 header {
@@ -191,7 +218,7 @@ header img {
     }
 
     .coluna1 {
-        scrollbar-width: none;
+        /*scrollbar-width: none;*/
         min-width: 340.5px;
         flex: 1;
         overflow-y: auto;
@@ -199,14 +226,13 @@ header img {
     }
 
     .coluna2 {
-        scrollbar-width: none;
         min-width: 744px;
         overflow-y: auto;
         border-right: 1px solid black;
     }
 
     .coluna3 {
-        scrollbar-width: none;
+        /*scrollbar-width: none;*/
         min-width: 340.5px;
         flex: 1;
         overflow-y: auto;
@@ -217,14 +243,14 @@ header img {
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 70px;
-        background-color: #f1f1f1;
+        background-color: #F2F4F7;
     }
 
     #meio {
         display: flex;
         justify-content: center;
-        padding-top: 70px;
-        background-color: #fff; 
+        padding-top: 10px;
+        background-color: #F2F4F7; 
         flex: 2;
         padding-left: 32px;
         padding-right: 32px;
@@ -232,14 +258,14 @@ header img {
 
     div.conteudo2 {
         width: 680px;
-        background-color: white;
+        background-color: #F2F4F7;
     }
 
     .pensamento {
         background-color: white;
         width: 680px;
         height: 62px;
-        box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.123);
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.205);
         border-radius: 10px;
         margin-bottom: 10px;
         padding: 12px 16px 10px 16px;
@@ -253,10 +279,9 @@ header img {
 
     .reels {
         width: 680px;
-        height: 200px;
+        height: 210px;
         display: inline-flex;
-        flex-direction: row;
-        margin-bottom: 10px;
+
     }
 
     #reel01 {
@@ -264,15 +289,16 @@ header img {
         width: 112.5px;
         height: 200px;
         border-radius: 10px;
-        margin-right: 8px;
-        box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.123);
+        margin-right: 4px;
+        margin-left: 4px;
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.205);
     }
 
     .conteudousuarios {
         width: 680px;
         height: auto;
         display: flex;
-        padding-bottom: 50px;
+        padding-bottom: 70px;
         margin-bottom: 8px;
     }
 
@@ -282,15 +308,126 @@ header img {
         height: auto;
         border-radius: 10px;
         margin-right: 8px;
-        box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.123);
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.205);
+
+        a {
+            font-size: 0.9em;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .horario {
+            color: gray;
+        }
+
+        .horario > a {
+            color: gray;
+        }
+    }
+
+    .user-dir {
+        width: 36px;
+        height: 36px;
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        margin-right: 35px;
+        margin-top: 10px;
+
+        img {
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 15px;
+            height: 15px;
+        }
+        
+        .tres-pontos:hover {
+            background-color: rgba(128, 128, 128, 0.103);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .fechar:hover {
+            background-color: rgba(128, 128, 128, 0.103);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    }
+
+
+    .toptop {
+        display: flex;
+        width: 656px;
+        height: 36px;
+        margin-bottom: 20px;
+    }
+
+    .topo {
+        display: inline-flex;
+        padding: 10px;
+
+        img {
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .fotomeio {
+        background-image: url('../imagens/foto.jpg');
+        background-size: 40px;
+        background-position: center center;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.5em;
+        height: 2.5em;
+        border-radius: 50%;
+        border: 1px solid transparent; 
+
+        }
+    }
+
+    .baixotopo {
+        margin-top: 10px;
+        display: inline-block;
+        width: 536px;
+        height: 19.984px;  
     }
 
     .conteudo {
         display: flexbox;
         width: 680px;
 
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
         img {
+            margin: -1px;
             max-width: 100%;
+        }
+
+        img:hover {
+            cursor: pointer;
         }
     }
 
@@ -325,6 +462,6 @@ header img {
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 70px;
-        background-color: #f1f1f1;
+        background-color: #F2F4F7;
         border-right: none;
     }

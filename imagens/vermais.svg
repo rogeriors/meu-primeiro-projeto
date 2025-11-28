@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW (Versão OEM) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="12.7mm" height="12.7mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 208.43 208.43"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#373435;stroke-width:12.31;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+    .fil1 {fill:#D6D9DD}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M-0 0l208.43 0 0 208.43 -208.43 0 0 -208.43z"/>
+   </clipPath>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g id="_2674583013648">
+    <image x="373.82" y="-1070.09" width="214.22" height="9639.95" xlink:href="vermais_Images\vermais_ImgID1.png"/>
+    <image x="286.67" y="126.88" width="222.33" height="222.33" xlink:href="vermais_Images\vermais_ImgID2.png"/>
+    <image x="842.76" y="-273.35" width="248.96" height="272.12" xlink:href="vermais_Images\vermais_ImgID3.png"/>
+   </g>
+  </g>
+  <polygon class="fil0" points="-0,0 208.43,0 208.43,208.43 -0,208.43 "/>
+  <g id="_2674583018352">
+   <circle class="fil1" cx="100.67" cy="103.73" r="82.34"/>
+   <polyline class="fil0 str0" points="74.27,89.21 102.25,118.25 127.07,89.21 "/>
+  </g>
+ </g>
+</svg>
