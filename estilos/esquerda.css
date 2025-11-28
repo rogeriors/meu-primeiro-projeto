@@ -50,35 +50,33 @@
 
 .topo2 {
     display: inline-flex;
+    height: 50px;
     
     p{
+        color: #6B6E73;
         font-weight: 600;
-        width: 225px;
+        width: 255px;
     }
 
     a {
+        display: flex;
         text-decoration: none;
         color: #0064D1;
-    }
-
-    :hover > a {
         width: 65px;
         height: 30px;
-        text-decoration: underline;
+        align-items: center;
+        justify-content: center;
     }
-}
 
-.edit > a {
-    display: none;
 }
 
 .edit:hover > a {
     background-color: rgba(128, 128, 128, 0.212);
     border-radius: 10px 0px 0px 10px;
     text-decoration: none;
-    display: inline-flex;
     align-items: center;
     justify-content: center;
+   
 }
 
 .linkfinal {

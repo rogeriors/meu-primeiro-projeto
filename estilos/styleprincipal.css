@@ -32,7 +32,7 @@ iframe {
     width: 348.5px;     
     height: 100vh;    
     z-index: 1000;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 8px 0px 5px;
 }
 
 .overlay-iframe2 {
